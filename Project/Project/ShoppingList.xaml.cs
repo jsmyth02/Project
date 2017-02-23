@@ -32,7 +32,76 @@ namespace Project
 
             var response = await client.GetStringAsync(uri);
 
-            LabelOne.Text = Convert.ToString(response);
+            var jsonObj = JsonConvert.DeserializeObject<RootObject>(response);
+
+            foreach (var obj in jsonObj.uk.ghs.products.results)
+            {
+                LabelOne.Text = LabelOne.Text + Convert.ToString(obj.name);
+            }
+
         }
     }
+
+
+    public class Result
+    {
+        public string image { get; set; }
+        public int tpnb { get; set; }
+        public int UnitOfSale { get; set; }
+        public List<string> description { get; set; }
+        public string UnitQuantity { get; set; }
+        public double unitprice { get; set; }
+        public bool IsSpecialOffer { get; set; }
+        public double price { get; set; }
+        public string ContentsMeasureType { get; set; }
+        public string PromotionDescription { get; set; }
+        public string name { get; set; }
+        public double AverageSellingUnitWeight { get; set; }
+        public double ContentsQuantity { get; set; }
+    }
+
+    public class Totals
+    {
+        public int all { get; set; }
+        public int offer { get; set; }
+        public int @new { get; set; }
+    }
+
+    public class Products
+    {
+        public List<Result> results { get; set; }
+        public List<object> suggestions { get; set; }
+        public Totals totals { get; set; }
+    }
+
+    public class Ghs
+    {
+        public Products products { get; set; }
+    }
+
+    public class Uk
+    {
+        public Ghs ghs { get; set; }
+    }
+
+    public class RootObject
+    {
+        public Uk uk { get; set; }
+    }
+
+
+    //public class Rootobject
+    //{
+    //    public List<Products> products { get; set; }
+    //}
+
+    //public class Products
+    //{
+    //    public List<Results> results { get; set; }
+    //}
+
+    //public class Results
+    //{
+    //    public string name { get; set; }
+    //}
 }
