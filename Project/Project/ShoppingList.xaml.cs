@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,15 +13,16 @@ namespace Project
 {
     public partial class ShoppingList : ContentPage
     {
+        ObservableCollection<ProductNames> productnames = new ObservableCollection<ProductNames>();
 
         public ShoppingList()
         {
             InitializeComponent();
 
-            MakeRequest();
+            Products.ItemsSource = productnames;
         }
 
-        public async void MakeRequest()
+        public async void MakeRequest(string uri)
         {
             var client = new HttpClient(new NativeMessageHandler());
             //var queryString = HttpUtility.ParseQueryString(string.Empty);
@@ -28,20 +30,32 @@ namespace Project
             // Request headers
             client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", "cdb38dd27831408bb6b0ffa5f746b34c");
 
-            var uri = "https://dev.tescolabs.com/grocery/products/?query=ham&offset=0&limit=10&";
-
             var response = await client.GetStringAsync(uri);
 
             var jsonObj = JsonConvert.DeserializeObject<RootObject>(response);
 
             foreach (var obj in jsonObj.uk.ghs.products.results)
             {
-                LabelOne.Text = LabelOne.Text + Convert.ToString(obj.name);
+                productnames.Add(new ProductNames { DisplayName = Convert.ToString(obj.name) });
             }
 
         }
+
+        private void Search_OnClicked(object sender, EventArgs e)
+        {
+            string searchedFood = foodSearched.Text;
+
+            var uri = "https://dev.tescolabs.com/grocery/products/?query=" + searchedFood + "&offset=0&limit=10&";
+
+            MakeRequest(uri);
+        }
     }
 
+
+    public class ProductNames
+    {
+        public string DisplayName { get; set; }
+    }
 
     public class Result
     {

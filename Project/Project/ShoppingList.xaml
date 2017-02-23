@@ -5,7 +5,17 @@
              Title="Create Shopping List">
   <StackLayout>
   
-  <Label x:Name="LabelOne" Text="BOOM Shopping List!" VerticalOptions="Center" HorizontalOptions="Center" />
+  <Entry x:Name="foodSearched"></Entry>
+    
+   <Button x:Name="Search" Text="Search" Clicked="Search_OnClicked"></Button>
+      
+  <ListView x:Name="Products">
+    <ListView.ItemTemplate>
+      <DataTemplate>
+        <TextCell Text="{Binding DisplayName}" />
+      </DataTemplate>
+    </ListView.ItemTemplate>
+  </ListView>
 
   </StackLayout>
 </ContentPage>

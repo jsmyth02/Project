@@ -17,12 +17,20 @@ namespace Project {
     public partial class ShoppingList : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Label LabelOne;
+        private global::Xamarin.Forms.Entry foodSearched;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button Search;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.ListView Products;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(ShoppingList));
-            LabelOne = this.FindByName<global::Xamarin.Forms.Label>("LabelOne");
+            foodSearched = this.FindByName<global::Xamarin.Forms.Entry>("foodSearched");
+            Search = this.FindByName<global::Xamarin.Forms.Button>("Search");
+            Products = this.FindByName<global::Xamarin.Forms.ListView>("Products");
         }
     }
 }
