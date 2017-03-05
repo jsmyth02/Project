@@ -17,8 +17,56 @@ namespace Project {
     public partial class FoodDiary : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button btnBreakfastEdit;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button btnBreakfastStore;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label lblBreakfast;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Editor edtBreakfast;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button btnLunchEdit;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button btnLunchStore;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label lblLunch;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Editor edtLunch;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button btnDinnerEdit;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button btnDinnerStore;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label lblDinner;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Editor edtDinner;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(FoodDiary));
+            btnBreakfastEdit = this.FindByName<global::Xamarin.Forms.Button>("btnBreakfastEdit");
+            btnBreakfastStore = this.FindByName<global::Xamarin.Forms.Button>("btnBreakfastStore");
+            lblBreakfast = this.FindByName<global::Xamarin.Forms.Label>("lblBreakfast");
+            edtBreakfast = this.FindByName<global::Xamarin.Forms.Editor>("edtBreakfast");
+            btnLunchEdit = this.FindByName<global::Xamarin.Forms.Button>("btnLunchEdit");
+            btnLunchStore = this.FindByName<global::Xamarin.Forms.Button>("btnLunchStore");
+            lblLunch = this.FindByName<global::Xamarin.Forms.Label>("lblLunch");
+            edtLunch = this.FindByName<global::Xamarin.Forms.Editor>("edtLunch");
+            btnDinnerEdit = this.FindByName<global::Xamarin.Forms.Button>("btnDinnerEdit");
+            btnDinnerStore = this.FindByName<global::Xamarin.Forms.Button>("btnDinnerStore");
+            lblDinner = this.FindByName<global::Xamarin.Forms.Label>("lblDinner");
+            edtDinner = this.FindByName<global::Xamarin.Forms.Editor>("edtDinner");
         }
     }
 }

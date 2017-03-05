@@ -12,7 +12,18 @@
   <ListView x:Name="Products">
     <ListView.ItemTemplate>
       <DataTemplate>
-        <TextCell Text="{Binding DisplayName}" />
+        <ViewCell>
+          <ViewCell.ContextActions>
+            <MenuItem Clicked="OnMore" CommandParameter="{Binding DisplayName}"
+               Text="Add" />
+            <MenuItem Clicked="OnDelete" CommandParameter="{Binding DisplayName}"
+               Text="Delete" IsDestructive="True" />
+         </ViewCell.ContextActions>
+        <StackLayout Padding="15,0">
+             <Label Text="{Binding DisplayName}" />
+         </StackLayout>
+        </ViewCell>
+        
       </DataTemplate>
     </ListView.ItemTemplate>
   </ListView>

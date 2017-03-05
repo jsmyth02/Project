@@ -3,5 +3,86 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Project.FoodDiary"
              Title="Food Diary">
-  <Label Text="Food Diary" VerticalOptions="Center" HorizontalOptions="Center" />
+  <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="8*" />
+      <RowDefinition Height="25*" />
+      <RowDefinition Height="8*" />
+      <RowDefinition Height="25*" />
+      <RowDefinition Height="8*" />
+      <RowDefinition Height="26*" />
+    </Grid.RowDefinitions>
+
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="80*" />
+      <ColumnDefinition Width="20*" />
+    </Grid.ColumnDefinitions>
+
+    <Label
+      Grid.Row="0" Grid.Column="0"
+      Text="Breakfast" Font="Bold, 20" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"></Label>
+
+    <Button
+      Grid.Row="0" Grid.Column="1"
+      x:Name="btnBreakfastEdit" Text="Edit" Clicked="Breakfast_Edit_Clicked"></Button>
+    
+     <Button
+      Grid.Row="0" Grid.Column="1"
+      x:Name="btnBreakfastStore" Text="Store" IsVisible="False" Clicked="Breakfast_Store_Clicked"></Button>
+    
+    <ScrollView
+      Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+      <Label
+        x:Name="lblBreakfast" Text="Breakfast" BackgroundColor="#D3D3D3"></Label>
+    </ScrollView>
+      
+    <Editor
+       Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
+        x:Name="edtBreakfast" Text="Enter Breakfast Details" IsVisible="False" BackgroundColor="#D3D3D3"></Editor>
+
+    <Label
+     Grid.Row="2" Grid.Column="0"
+     Text="Lunch" Font="Bold, 20" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"></Label>
+
+    <Button
+     Grid.Row="2" Grid.Column="1"
+     x:Name="btnLunchEdit" Text="Edit" Clicked="Lunch_Edit_Clicked" ></Button>
+    
+    <Button
+      Grid.Row="2" Grid.Column="1"
+      x:Name="btnLunchStore" Text="Store" IsVisible="False" Clicked="Lunch_Store_Clicked"></Button>
+    
+    <ScrollView
+      Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2">
+      <Label
+        x:Name="lblLunch" Text="Lunch" BackgroundColor="#D3D3D3"></Label>
+    </ScrollView>
+    
+    <Editor
+      Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2"
+      x:Name="edtLunch" Text="Enter Lunch Details" IsVisible="False" BackgroundColor="#D3D3D3"></Editor>
+
+    <Label
+     Grid.Row="4" Grid.Column="0"
+     Text="Dinner" Font="Bold, 20" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"></Label>
+
+    <Button
+     Grid.Row="4" Grid.Column="1"
+     x:Name="btnDinnerEdit" Text="Edit" Clicked="Dinner_Edit_Clicked" ></Button>
+    
+    <Button
+      Grid.Row="4" Grid.Column="1"
+      x:Name="btnDinnerStore" Text="Store" Clicked="Dinner_Store_Clicked"></Button>
+    
+    <ScrollView
+      Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2">
+      <Label
+        x:Name="lblDinner" Text="Dinner" BackgroundColor="#D3D3D3"></Label>
+    </ScrollView>
+  
+    <Editor
+      Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2"
+      x:Name="edtDinner" Text="Enter Dinner Details" IsVisible="False" BackgroundColor="#D3D3D3"></Editor>
+
+  </Grid>
 </ContentPage>

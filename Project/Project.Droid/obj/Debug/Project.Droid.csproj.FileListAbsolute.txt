@@ -78,5 +78,5 @@ C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droi
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\ModernHttpClient.dll
 C:\Users\user\Documents\Visual Studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\Newtonsoft.Json.dll
 C:\Users\user\Documents\Visual Studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\Newtonsoft.Json.xml
-C:\Users\user\Documents\Visual Studio 2015\Projects\Project\Project\Project.Droid\obj\Debug\Project.Droid.dll.mdb
-C:\Users\user\Documents\Visual Studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\Project.Droid.dll.mdb
+C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\obj\Debug\Project.Droid.dll.mdb
+C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\Project.Droid.dll.mdb

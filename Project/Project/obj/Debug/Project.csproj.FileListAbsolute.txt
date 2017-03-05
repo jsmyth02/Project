@@ -27,5 +27,7 @@ C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project\bin\
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project\bin\Debug\System.Net.Http.Primitives.xml
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project\obj\Debug\Project.csproj.App.config
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project\bin\Debug\ModernHttpClient.dll
-C:\Users\user\Documents\Visual Studio 2015\Projects\Project\Project\Project\obj\Debug\Project.dll.mdb
-C:\Users\user\Documents\Visual Studio 2015\Projects\Project\Project\Project\bin\Debug\Project.dll.mdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\Project\Project\Project\bin\Debug\DotNetCross.Memory.Unsafe.dll
+C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project\obj\Debug\Project.DaySelect.xaml.g.cs
+C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project\obj\Debug\Project.dll.mdb
+C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project\bin\Debug\Project.dll.mdb
