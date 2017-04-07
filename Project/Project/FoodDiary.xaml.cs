@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using PCLStorage;
+using Realms;
 using Xamarin.Forms;
 
 namespace Project
@@ -13,6 +14,8 @@ namespace Project
         private string breakfast;
         private string lunch;
         private string dinner;
+
+        private readonly IFolder _rootFolder = FileSystem.Current.LocalStorage;
 
 
         public FoodDiary()
@@ -38,6 +41,7 @@ namespace Project
             lblBreakfast.IsVisible = true;
             edtBreakfast.IsVisible = false;
 
+            
             // Store to database?
         }
 
@@ -59,6 +63,8 @@ namespace Project
             lblLunch.IsVisible = true;
             edtLunch.IsVisible = false;
 
+            Load("MondayDinner");
+
             // Store to database?
         }
 
@@ -70,7 +76,7 @@ namespace Project
             edtDinner.IsVisible = true;
         }
 
-        private void Dinner_Store_Clicked(object sender, EventArgs e)
+        private async void Dinner_Store_Clicked(object sender, EventArgs e)
         {
             dinner = edtDinner.Text;
             lblDinner.Text = dinner;
@@ -80,7 +86,59 @@ namespace Project
             lblDinner.IsVisible = true;
             edtDinner.IsVisible = false;
 
+            await Save("MondayDinner", dinner);
             // Store to database?
         }
+
+        //public void PCLCreateFile(string fileName, string content)
+        //{
+        //    IFolder localStorage = FileSystem.Current.LocalStorage;
+        //    IFile file = localStorage.CreateFileAsync(fileName, CreationCollisionOption.ReplaceExisting).Result;
+        //    file.WriteAllTextAsync(content);
+        //}
+
+        //public string PCLReadFile(string fileName)
+        //{
+        //    IFolder localStorage = FileSystem.Current.LocalStorage;
+        //    if (PCLCheckFileExists(fileName, FileStorageType.File))
+        //    {
+        //        IFile file = localStorage.GetFileAsync(fileName).Result;
+        //        //return file.ReadAllTextAsync().Result; //This wouldn't work. You will hit deadlock. 
+        //        return ReadFile(file, fileName).Result;
+        //    }
+        //    return string.Empty;
+        //}
+
+        //public async Task<string> ReadFile(IFile f, string fileName)
+        //{
+        //    return await Task.Run(() => f.ReadAllTextAsync()).ConfigureAwait(false);
+        //}
+
+        public async Task Save(string path, string name)
+        {
+            IFile file = await _rootFolder.CreateFileAsync(path, CreationCollisionOption.ReplaceExisting);
+            await file.WriteAllTextAsync(name);
+        }
+
+        public string Load(string path)
+        {
+            try
+            {
+                IFile file = _rootFolder.GetFileAsync(path).Result;
+                return file.ReadAllTextAsync().Result;
+            }
+            catch (Exception)
+            {
+            }
+            return null;
+        }
+
+        public interface ISettingsService
+        {
+            T GetValueOrDefault<T>(string key, T defaultValue = default(T));
+            bool AddOrUpdateValue(string key, Object value);
+            void Save();
+        }
     }
+
 }

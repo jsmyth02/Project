@@ -23,7 +23,7 @@ namespace Project
 
         private void FoodDiary_OnClicked(object sender, EventArgs e)
         {
-            Detail = new NavigationPage(new FoodDiary());
+            Detail = new NavigationPage(new DaySelect());
             IsPresented = false;
         }
 

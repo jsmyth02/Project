@@ -17,8 +17,36 @@ namespace Project {
     public partial class DaySelect : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button btnMonday;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button btnTuesday;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button btnWednesday;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button btnThursday;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button btnFriday;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button btnSaturday;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button btnSunday;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(DaySelect));
+            btnMonday = this.FindByName<global::Xamarin.Forms.Button>("btnMonday");
+            btnTuesday = this.FindByName<global::Xamarin.Forms.Button>("btnTuesday");
+            btnWednesday = this.FindByName<global::Xamarin.Forms.Button>("btnWednesday");
+            btnThursday = this.FindByName<global::Xamarin.Forms.Button>("btnThursday");
+            btnFriday = this.FindByName<global::Xamarin.Forms.Button>("btnFriday");
+            btnSaturday = this.FindByName<global::Xamarin.Forms.Button>("btnSaturday");
+            btnSunday = this.FindByName<global::Xamarin.Forms.Button>("btnSunday");
         }
     }
 }

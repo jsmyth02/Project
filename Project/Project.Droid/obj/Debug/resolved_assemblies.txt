@@ -45,6 +45,8 @@ C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droi
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\obj\Debug\android\assets\System.Runtime.InteropServices.dll
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\obj\Debug\android\assets\System.Resources.ResourceManager.dll
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\obj\Debug\android\assets\System.Diagnostics.Tools.dll
+C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\obj\Debug\android\assets\PCLStorage.Abstractions.dll
+C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\obj\Debug\android\assets\PCLStorage.dll
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\obj\Debug\android\assets\ModernHttpClient.dll
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\obj\Debug\android\assets\System.Net.Requests.dll
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\obj\Debug\android\assets\System.Net.Primitives.dll
@@ -55,3 +57,4 @@ C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droi
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\obj\Debug\android\assets\System.Text.Encoding.Extensions.dll
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\obj\Debug\android\assets\Microsoft.CSharp.dll
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\obj\Debug\android\assets\Mono.CSharp.dll
+C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\obj\Debug\android\assets\System.Linq.Queryable.dll

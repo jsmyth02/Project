@@ -5,22 +5,13 @@
              x:Class="Project.DaySelect"
              Title="Select Day">
   <StackLayout>
-    <DatePicker VerticalOptions="CenterAndExpand" Date="{x:Static system:DateTime.Now}">
-      <DatePicker.Format>yyyy-MM-dd</DatePicker.Format>
-      <DatePicker.MinimumDate>
-        <system:DateTime x:FactoryMethod="Parse">
-          <x:Arguments>
-            <x:String>Jan 1 2000</x:String>
-          </x:Arguments>
-        </system:DateTime>
-      </DatePicker.MinimumDate>
-      <DatePicker.MaximumDate>
-        <system:DateTime x:FactoryMethod="Parse">
-          <x:Arguments>
-            <x:String>Dec 31 2050</x:String>
-          </x:Arguments>
-        </system:DateTime>
-      </DatePicker.MaximumDate>
-    </DatePicker>
+    
+    <Button x:Name="btnMonday" Text="Monday" Clicked="BtnMonday_OnClicked"></Button>
+    <Button x:Name="btnTuesday" Text="Tuesday" Clicked="BtnTuesday_OnClicked"></Button>
+    <Button x:Name="btnWednesday" Text="Wednesday" Clicked="BtnWednesday_OnClicked"></Button>
+    <Button x:Name="btnThursday" Text="Thursday" Clicked="BtnThursday_OnClicked"></Button>
+    <Button x:Name="btnFriday" Text="Friday" Clicked="BtnFriday_OnClicked"></Button>
+    <Button x:Name="btnSaturday" Text="Saturday" Clicked="BtnSaturday_OnClicked"></Button>
+    <Button x:Name="btnSunday" Text="Sunday" Clicked="BtnSunday_OnClicked"></Button>
   </StackLayout>
 </ContentPage>

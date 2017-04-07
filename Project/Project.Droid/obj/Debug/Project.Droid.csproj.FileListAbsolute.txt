@@ -1,3 +1,4 @@
+C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\Project.Droid.dll.config
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\Project.Droid.dll
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\Project.Droid.pdb
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\Project.Droid.apk
@@ -16,6 +17,10 @@ C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droi
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\Xamarin.Forms.Platform.dll
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\PCLStorage.Abstractions.dll
+C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\PCLStorage.dll
+C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\ModernHttpClient.dll
+C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\Newtonsoft.Json.dll
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\Project.pdb
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\FormsViewGroup.pdb
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\FormsViewGroup.dll.mdb
@@ -27,6 +32,9 @@ C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droi
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\PCLStorage.Abstractions.xml
+C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\PCLStorage.xml
+C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\Newtonsoft.Json.xml
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\obj\Debug\Project.Droid.csprojResolveAssemblyReference.cache
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\obj\Debug\Project.Droid.dll
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\obj\Debug\Project.Droid.pdb
@@ -43,7 +51,9 @@ C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droi
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\Project.Droid.dll.mdb
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\Project.dll.mdb
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\Java.Interop.dll.mdb
+C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\Microsoft.CSharp.dll.mdb
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\Mono.Android.dll.mdb
+C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\Mono.CSharp.dll.mdb
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\mscorlib.dll.mdb
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\System.ComponentModel.Composition.dll.mdb
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\System.Core.dll.mdb
@@ -55,7 +65,9 @@ C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droi
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\System.Xml.Linq.dll.mdb
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\obj\Debug\android\assets\FormsViewGroup.dll.mdb
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\obj\Debug\android\assets\Microsoft.CSharp.dll.mdb
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\obj\Debug\android\assets\Mono.CSharp.dll.mdb
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\obj\Debug\android\assets\mscorlib.dll.mdb
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\obj\Debug\android\assets\Project.dll.mdb
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\obj\Debug\android\assets\Project.Droid.dll.mdb
@@ -70,13 +82,5 @@ C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droi
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
-C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\Project.Droid.dll.config
-C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\Microsoft.CSharp.dll.mdb
-C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\Mono.CSharp.dll.mdb
-C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\obj\Debug\android\assets\Microsoft.CSharp.dll.mdb
-C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\obj\Debug\android\assets\Mono.CSharp.dll.mdb
-C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\ModernHttpClient.dll
-C:\Users\user\Documents\Visual Studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\Newtonsoft.Json.dll
-C:\Users\user\Documents\Visual Studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\Newtonsoft.Json.xml
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\obj\Debug\Project.Droid.dll.mdb
 C:\Users\user\documents\visual studio 2015\Projects\Project\Project\Project.Droid\bin\Debug\Project.Droid.dll.mdb
